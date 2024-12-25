@@ -1,7 +1,7 @@
 # Boilerplate - FRM
 
 Boilerplate project for Flask, React & MongoDB based projects. This README documents the steps necessary to get your
-application up and running.
+application up and running. 
 
 ## Table of Contents
 
