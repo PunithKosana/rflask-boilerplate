@@ -85,11 +85,3 @@ Steps:
 
 This project deploys on Kubernetes via GitHub actions using workflows defined
 in [GitHub CI](https://github.com/jalantechnologies/github-ci).
-
-
-
-Here are few reasons how it is different from MERN:
-
-- Improved Readability and Maintainability. Ensured every path for both backend tests and frontend code coverage is set correctly.
-- Useful when particularly having Multi-Module Project with explicitly defined modules names in `backend.sonar.projectName=Backend` and `frontend.sonar.projectName=Frontend`
-- Specifically defines separate coverage exclusions for both backend and frontend modules, making it more precise for `backend.sonar.coverage.exclusions=../frontend/**/*` and `frontend.sonar.coverage.exclusions=../backend/**/*` .
