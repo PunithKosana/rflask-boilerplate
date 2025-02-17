@@ -11,6 +11,25 @@ application up and running.
 - [Deployment](#deployment)
 
 ## Getting Started
+## Setup Environment
+
+- Install Node v22:
+    - For macOS: 
+    ```sh
+  brew install node@22
+  ```
+    - For Linux:
+          ```sh
+  curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  ```
+    - For Windows:
+        - Download and install [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
+  - Open a new terminal and run:
+    ```sh
+    nvm install 22
+    nvm use 22
+    ```
 
 **Quickstart:**
 
