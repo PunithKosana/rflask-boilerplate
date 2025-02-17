@@ -15,14 +15,14 @@ application up and running.
 
 - Install Node v22:
     - For macOS: 
-    ```sh
+   ```sh
   brew install node@22
   ```
     - For Linux:
-          ```sh
+   ```sh
   curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
   sudo apt-get install -y nodejs
-  ```
+ ```
     - For Windows:
         - Download and install [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
   - Open a new terminal and run:
